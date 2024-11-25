@@ -10,10 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-ml-kit/text-recognition": "^1.5.2",
     "react": "18.3.1",
-    "react-native": "0.76.3",
-    "react-native-vision-camera": "^4.6.1",
-    "vision-camera-code-scanner": "^0.2.0"
+    "react-native": "0.76.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
