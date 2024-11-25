@@ -1,10 +1,11 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import {SafeAreaView} from 'react-native';
+import CameraComponent from './src/components/Camera';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Text>Barcode Scanner App</Text>
+    <SafeAreaView style={{flex: 1}}>
+      <CameraComponent />
     </SafeAreaView>
   );
 }
